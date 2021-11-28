@@ -1,3 +1,7 @@
+extern crate ffi_cpp;
+
 fn main() {
-    println!("Hello, world!!");
+    unsafe {
+        ffi_cpp::foo();
+    }
 }

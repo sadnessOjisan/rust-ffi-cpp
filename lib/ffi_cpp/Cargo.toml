@@ -1,0 +1,11 @@
+[package]
+name = "ffi_cpp"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs" # ビルドスクリプトはbuild.rsファイル
+
+[dependencies]
+libc = "0.2.94"
+
+[build-dependencies]
+cmake = "0.1"
